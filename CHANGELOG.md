@@ -2,6 +2,63 @@
 
 <!-- version list -->
 
+## v2.21.0-beta.2 (2026-10-26)
+
+### Bug Fixes
+
+- Point entity_search hints at context_type, not entity_type
+  ([#1315](https://github.com/n24q02m/mnemo/pull/1315),
+  [`21f1e1d`](https://github.com/n24q02m/mnemo/commit/21f1e1d80264b6fe3c06362477ec497f5aba074e))
+
+- Relock uv.lock during release so the lock tracks the version
+  ([#1312](https://github.com/n24q02m/mnemo/pull/1312),
+  [`c676388`](https://github.com/n24q02m/mnemo/commit/c676388948bf1afbc849605b0ed7ef8f96aa71ff))
+
+- Stop the protocol gate leaking a server per run on Windows
+  ([#1314](https://github.com/n24q02m/mnemo/pull/1314),
+  [`12d1a8e`](https://github.com/n24q02m/mnemo/commit/12d1a8e4603a0f07d7773ce36ae7c7b235d13290))
+
+- **deps**: Lock file maintenance ([#1335](https://github.com/n24q02m/mnemo/pull/1335),
+  [`4213a39`](https://github.com/n24q02m/mnemo/commit/4213a39813aa733853b4f7059a50c182be4333d3))
+
+- **deps**: Lock file maintenance ([#1333](https://github.com/n24q02m/mnemo/pull/1333),
+  [`92bcb02`](https://github.com/n24q02m/mnemo/commit/92bcb02b4572f7680ebfc2839c10bc3a03a1f157))
+
+- **deps**: Lock file maintenance ([#1331](https://github.com/n24q02m/mnemo/pull/1331),
+  [`a51ce4d`](https://github.com/n24q02m/mnemo/commit/a51ce4dcfca91ed9894a454c229598f488a95701))
+
+- **deps**: Lock file maintenance ([#1329](https://github.com/n24q02m/mnemo/pull/1329),
+  [`f3545a7`](https://github.com/n24q02m/mnemo/commit/f3545a795ee105553211aec2d0723fc7a8e2a665))
+
+- **deps**: Lock file maintenance ([#1325](https://github.com/n24q02m/mnemo/pull/1325),
+  [`d95db6d`](https://github.com/n24q02m/mnemo/commit/d95db6de761af39a7d3fc5974ef4b9e0fcda18da))
+
+- **deps**: Lock file maintenance ([#1323](https://github.com/n24q02m/mnemo/pull/1323),
+  [`106aa95`](https://github.com/n24q02m/mnemo/commit/106aa95bb7c6d3019e19f0c018d5b0bb34cc9a96))
+
+- **deps**: Lock file maintenance ([#1322](https://github.com/n24q02m/mnemo/pull/1322),
+  [`43c50b9`](https://github.com/n24q02m/mnemo/commit/43c50b9eb5408d68513897ff737c0d352be579c8))
+
+- **deps**: Lock file maintenance ([#1321](https://github.com/n24q02m/mnemo/pull/1321),
+  [`d0156ef`](https://github.com/n24q02m/mnemo/commit/d0156efaa6aaeba0007da5530c53d86b2501e785))
+
+- **deps**: Lock file maintenance ([#1313](https://github.com/n24q02m/mnemo/pull/1313),
+  [`99e7dc2`](https://github.com/n24q02m/mnemo/commit/99e7dc2fbcca814e9d4b095285a9bcc561eb0513))
+
+- **deps**: Update fastretrieval to >=1.12.0,<2
+  ([#1319](https://github.com/n24q02m/mnemo/pull/1319),
+  [`8661ab1`](https://github.com/n24q02m/mnemo/commit/8661ab150ffd9fdce6c21aee52b792caa11c9fb1))
+
+- **deps**: Update minor dependencies ([#1320](https://github.com/n24q02m/mnemo/pull/1320),
+  [`f2bb7ef`](https://github.com/n24q02m/mnemo/commit/f2bb7ef34e5556dbfd57940c4f504ac7ee7e96d9))
+
+### Features
+
+- Rewire to the published n24q02m-hull 0.4 dist and mcp 2
+  ([#1336](https://github.com/n24q02m/mnemo/pull/1336),
+  [`267b270`](https://github.com/n24q02m/mnemo/commit/267b2705f761021d5352e82980bc1d88aa7b405c))
+
+
 ## v2.21.0-beta.1 (2026-10-10)
 
 ### Bug Fixes
